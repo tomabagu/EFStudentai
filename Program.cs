@@ -11,8 +11,11 @@ namespace EFBaigiamasisStudentai
         static void Main(string[] args)
         {
             StudentaiContext context = new StudentaiContext();
+            //atkomentuoti šiuos
             //context.Database.EnsureDeleted();
             //context.Database.EnsureCreated();
+
+            //arba paleisti Update-Database db migracijai
 
             IDepartmentRepository departmentRepository = new DepartmentRepository(context);
             ILectureRepository lectureRepository = new LectureRepository(context);
@@ -28,14 +31,3 @@ namespace EFBaigiamasisStudentai
         }
     }
 }
-/*
-EmployeeManagementContext context = new EmployeeManagementContext();
-IDarbuotojasRepository darbuotojasRepository = new DarbuotojasRepository(context);
-IProjektasRepository projektasRepository = new ProjektasRepository(context);
-IDarbuotojasService darbuotojasService = new DarbuotojasService(darbuotojasRepository);
-IProjektasService projektasService = new ProjektasService(projektasRepository);
-DarbuotojuValdymas darbuotojuValdymas = new DarbuotojuValdymas(darbuotojasService, projektasService);
-darbuotojuValdymas.Run();
-//context.Database.EnsureDeleted();
-//context.Database.EnsureCreated();
-*/
