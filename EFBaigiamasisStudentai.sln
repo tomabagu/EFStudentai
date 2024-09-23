@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFBaigiamasisStudentai", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFBaigiamasisStudentaiTest", "..\EFBaigiamasisStudentaiTest\EFBaigiamasisStudentaiTest.csproj", "{D3D95718-040D-4150-B21E-9E851E0FB26E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFStudentaiProjektas", "EFStudentaiProjektas", "{74F550CD-EC52-446D-A047-74A445765297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8FE2BCA-F235-42F0-99E6-DD2F4B962D2A} = {74F550CD-EC52-446D-A047-74A445765297}
+		{D3D95718-040D-4150-B21E-9E851E0FB26E} = {74F550CD-EC52-446D-A047-74A445765297}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77F968DB-6F81-413B-B9A3-FCD5CDA152C5}
